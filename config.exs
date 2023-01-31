@@ -35,7 +35,7 @@ config :livebook,
   shutdown_callback: nil,
   storage: Livebook.Storage.Ets,
   update_instructions_url: nil,
-  within_iframe: false,
+  within_iframe: false
 
 # Copied from Google Colab https://colab.research.google.com/drive/1HQKiGlCnzsB1Zq9iD_NrxxT8R9dSGklT?usp=sharing
 config :nx, default_backend: EXLA.Backend
