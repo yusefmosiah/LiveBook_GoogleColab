@@ -110,7 +110,9 @@ defmodule Livebook.MixProject do
       {:axon, github: "elixir-nx/axon", override: true},
       {:nx, "~> 0.4", override: true},
       {:explorer, "~> 0.3"},
-
+      {:rustler, ">= 0.0.0"},
+      {:rustler_precompiled, "~> 0.5"},
+      {:kino_bumblebee, "~> 0.1.4"},
     ]
   end
 
