@@ -104,7 +104,6 @@ defmodule Livebook.MixProject do
       {:bypass, "~> 2.1", only: :test},
       {:connection, "~> 1.1.0"},
       {:bumblebee, "~> 0.1.2"},
-      {:nx, "~> 0.4.1"},
       {:exla, "~> 0.4.1"},
       {:kino, "~> 0.8.0"},
       {:axon, github: "elixir-nx/axon", override: true},
